@@ -1,0 +1,67 @@
+*{ 
+    margin: 0;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+.menuEsquerda{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+main{
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(UmaChancedeVida.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    color: white;
+}
+
+
+.textoLateral{
+    padding: 30px;
+    width: 400px;
+    flex-flow: column wrap;
+    font-size: 15px;    
+        
+}
+
+
+.bordaQuadrada {
+    border: 1px solid white;
+    padding: 2px; 
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+}
+
+.linkVermelho{
+    border: 1px solid red;
+    padding: 2px;
+    background-color: red;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+
+    padding: 16px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
